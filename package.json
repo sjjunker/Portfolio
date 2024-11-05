@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Sandi Junker's Web Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjjunker/Portfolio.git"
+  },
+  "author": "Sandi Junker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjjunker/Portfolio/issues"
+  },
+  "homepage": "https://github.com/sjjunker/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
