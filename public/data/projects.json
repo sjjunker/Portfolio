@@ -1,0 +1,84 @@
+{
+    "projects": [
+        {
+            "name": "Car Listing",
+            "date": "2022-09-07",
+            "link": "https://github.com/sjjunker/carListing.git",
+            "description": "This is a mobile application that lists various cars on the screen. Details included are rating, pros/cons, MSRP, etc. The app also includes options for sorting and filtering.",
+            "type": "mobile",
+            "isCompleted": "true",
+            "image": "public/images/car-listing.webp",
+            "video": "https://youtube.com/shorts/SajJoXkiasI?feature=share"
+        },
+        {
+            "name": "Cat Platformer",
+            "date": "2024-10-31",
+            "link": "https://github.com/sjjunker/Cat_Platformer.git",
+            "description": "This is a basic platforming game, using a cat as a player. Accumulate points by collecting fish, and battle the evil rat enemy. Development in progress.",
+            "type": "other",
+            "isCompleted": "false",
+            "image": "public/images/cat-platformer.webp",
+            "video": "https://youtu.be/dO_66kaHFEw"
+        },
+        {
+            "name": "Chore Chart",
+            "date": "2024-10-14",
+            "link": "https://github.com/sjjunker/Chore-Chart.git",
+            "description": " This is a mobile app for logging chores and rewards for a household. The app uses the google firestore database for storing people, chores, and rewards.",
+            "type": "mobile",
+            "isCompleted": "true",
+            "image": "public/images/chore-chart.webp",
+            "video": "https://youtu.be/Dh-M8lb8iX8"
+        },
+        {
+            "name": "Basic Drawing",
+            "date": "2024-10-02",
+            "link": "https://github.com/sjjunker/BasicDrawingApp.git",
+            "description": "This is a basic drawing mobile application. You can draw in different thicknesses, shapes, and colors. The app also allows for undo and redo of lines drawn.",
+            "type": "mobile",
+            "isCompleted": "true",
+            "image": "public/images/basic-drawing.webp",
+            "video": "https://youtu.be/NaKK2J89sSw"
+        },
+        {
+            "name": "Garden Plot Planner",
+            "date": "2024-04-09",
+            "link": "https://github.com/sjjunker/cse210/tree/21657157bc7d5610990915f42ad49dfdadca4727/final/FinalProject",
+            "description": "A console application garden plot planner in C#. You can choose the size of your garden plot, add/remove plants, and load plants from a file.",
+            "type": "other",
+            "isCompleted": "true",
+            "image": "public/images/garden-plot-planner.webp",
+            "video": ""
+        },
+        {
+            "name": "Goal Manager",
+            "date": "",
+            "link": "",
+            "description": "",
+            "type": "",
+            "isCompleted": "true",
+            "image": "",
+            "video": ""
+        },
+        {
+            "name": "Chamber Site",
+            "date": "",
+            "link": "",
+            "description": "",
+            "type": "",
+            "isCompleted": "true",
+            "image": "",
+            "video": ""
+        },
+        {
+            "name": "Portfolio",
+            "date": "",
+            "link": "",
+            "description": "",
+            "type": "",
+            "isCompleted": "false",
+            "image": "",
+            "video": ""
+        }
+    ]
+}
