@@ -1,9 +1,8 @@
-var express = require('express');
-var serveStatic = require('serve-static');
+import express from 'express';
+import serveStatic from 'serve-static';
 var app = express();
 
 app.use(serveStatic('public', { index: '/index.html' }));
-app.use('/css', express.static('public' + '/css'));
 
 app.listen(3000);
 
