@@ -1,4 +1,8 @@
-import { getJSON, renderProjectDetails } from "./loadProjects.mjs";
+import { getProject, getParam, getJSON, renderProjectDetails } from "./loadProjects.mjs";
 
 let projects = await getJSON();
-renderProjectDetails(projects);
+let projectId = getParam("project");
+console.log(projectId);
+let foundProject = getProject(projectId, projects);
+console.log(foundProject);
+renderProjectDetails(foundProject);

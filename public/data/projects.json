@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Car Listing",
         "date": "2022-09-07",
         "link": "https://github.com/sjjunker/carListing.git",
@@ -8,9 +9,10 @@
         "language": "Swift",
         "isCompleted": true,
         "image": "../images/car-listing.webp",
-        "video": "https://youtube.com/shorts/SajJoXkiasI?feature=share"
+        "video": "https://youtube.com/embed/SajJoXkiasI?feature=shared"
     },
     {
+        "id": 2,
         "name": "Cat Platformer",
         "date": "2024-10-31",
         "link": "https://github.com/sjjunker/Cat_Platformer.git",
@@ -19,9 +21,10 @@
         "language": "Swift",
         "isCompleted": false,
         "image": "../images/cat-platformer.webp",
-        "video": "https://youtu.be/dO_66kaHFEw"
+        "video": "https://www.youtube.com/embed/dO_66kaHFEw?si=iRnrDX8gnpMRW6Wd"
     },
     {
+        "id": 3,
         "name": "Chore Chart",
         "date": "2024-10-14",
         "link": "https://github.com/sjjunker/Chore-Chart.git",
@@ -30,9 +33,10 @@
         "language": "Swift",
         "isCompleted": true,
         "image": "../images/chore-chart.webp",
-        "video": "https://youtu.be/Dh-M8lb8iX8"
+        "video": "https://www.youtube.com/embed/Dh-M8lb8iX8?si=AxHOzUeOPOpq0I1g"
     },
     {
+        "id": 4,
         "name": "Basic Drawing",
         "date": "2024-10-02",
         "link": "https://github.com/sjjunker/BasicDrawingApp.git",
@@ -41,9 +45,10 @@
         "language": "Swift",
         "isCompleted": true,
         "image": "../images/basic-drawing.webp",
-        "video": "https://youtu.be/NaKK2J89sSw"
+        "video": "https://www.youtube.com/embed/NaKK2J89sSw?si=Xc7xx5xihJObkD48"
     },
     {
+        "id": 5,
         "name": "Garden Plot Planner",
         "date": "2024-04-09",
         "link": "https://github.com/sjjunker/cse210/tree/21657157bc7d5610990915f42ad49dfdadca4727/final/FinalProject",
@@ -52,9 +57,10 @@
         "language": "C#",
         "isCompleted": true,
         "image": "../images/garden-plot-planner.webp",
-        "video": "https://youtu.be/mGIn6LXX0AI"
+        "video": "https://www.youtube.com/embed/mGIn6LXX0AI?si=LhTEpDKql57-Ew41"
     },
     {
+        "id": 6,
         "name": "Goal Manager",
         "date": "2024-06-11",
         "link": "https://github.com/sjjunker/Develop05.git",
@@ -63,9 +69,10 @@
         "language": "C#",
         "isCompleted": true,
         "image": "../images/goal-manager.webp",
-        "video": "https://youtu.be/onAAIBwn0aY"
+        "video": "https://www.youtube.com/embed/onAAIBwn0aY?si=KdI2NWWaZAY7tDPJ"
     },
     {
+        "id": 7,
         "name": "Chamber Site",
         "date": "2024-07-04",
         "link": "https://github.com/sjjunker/wdd230/tree/3f3d99a4b0b4d7080e7a4b7fdf465b3d13a4f752/chamber",
@@ -74,9 +81,10 @@
         "language": "HTML/CSS/JS",
         "isCompleted": true,
         "image": "../images/chamber.webp",
-        "video": "https://youtu.be/dS6l869_gHE"
+        "video": "https://www.youtube.com/embed/dS6l869_gHE?si=O4Qe9f7WBNxds_vR"
     },
     {
+        "id": 8,
         "name": "Portfolio",
         "date": "2024-11-16",
         "link": "https://github.com/sjjunker/Portfolio.git",
@@ -84,7 +92,7 @@
         "type": "Web",
         "language": "HTML/CSS/JS",
         "isCompleted": false,
-        "image": "../images/chamber.webp",
+        "image": "../images/portfolio.webp",
         "video": "https://youtu.be/dS6l869_gHE"
     }
 ]
