@@ -5,19 +5,19 @@
 //app.listen(3000);
 console.log('Server running at http://127.0.0.1:3000/');
 
-//var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-//var sassMiddleware = require('node-sass-middleware');
+//let createError = require('http-errors');
+let express = require('express');
+let path = require('path');
+//let sassMiddleware = require('node-sass-middleware');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-var aboutMeRouter = require('./routes/about-me');
-var contactRouter = require('./routes/contact');
-var projectDetailsRouter = require('./routes/project-details');
-var projectsListRouter = require('./routes/projects-list');
+let indexRouter = require('./routes/index');
+let usersRouter = require('./routes/users');
+let aboutMeRouter = require('./routes/about-me');
+let contactRouter = require('./routes/contact');
+let projectDetailsRouter = require('./routes/project-details');
+let projectsListRouter = require('./routes/projects-list');
 
-var app = express();
+let app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
