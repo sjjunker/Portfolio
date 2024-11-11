@@ -1,23 +1,27 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Sandi Junker's Web Portfolio",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sjjunker/Portfolio.git"
-  },
+  "type": "commonjs",
+  "main": "app.js",
   "author": "Sandi Junker",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sjjunker/Portfolio/issues"
   },
   "homepage": "https://github.com/sjjunker/Portfolio#readme",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjjunker/Portfolio.git"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  },
   "dependencies": {
-    "express": "^4.21.1"
-  }
+    "ejs": "^3.1.10",
+    "express": "~4.21.1"
+  },
+  "devDependencies": {},
+  "keywords": []
 }
