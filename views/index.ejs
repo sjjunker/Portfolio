@@ -14,11 +14,7 @@
 
 <body>
   <header>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about-me">About Me</a>
-      <a href="/projects-list">Projects</a>
-    </nav>
+    <%- include ("./partials/header") -%>
   </header>
 
   <main>
@@ -37,9 +33,7 @@
   </main>
 
   <footer>
-    <p>Sandi Junker ©2024</p>
-    <p id="date"></p>
-    <p><a href="/contact">Contact Us</a></p>
+    <%- include ("./partials/footer") -%>
   </footer>
   <script src="javascripts/home.js" type="module"></script>
 </body>
