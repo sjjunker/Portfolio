@@ -17,10 +17,7 @@ nav {
     background-color: azure;
 }
 
-nav a,
-nav a:visited,
-footer a,
-footer a:visited {
+a {
     text-decoration: none;
     color: black;
 }
@@ -31,18 +28,43 @@ footer a:hover {
 }
 
 h1 {
-    font-size: 7vw;
+    font-size: 4rem;
     margin-left: 1rem;
 }
 
 h2 {
-    font-size: 6vw;
+    font-size: 3rem;
     margin-left: 1rem;
 }
 
 p,
 a {
-    font-size: 4vh;
+    font-size: 1.5rem;
+}
+
+section,
+menu {
+    display: flex;
+}
+
+menu {
+    flex-wrap: none;
+    list-style: none;
+    justify-content: space-evenly;
+    border-radius: 10px 10px 0 0;
+    background-color: burlywood;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+menu li button {
+    border: none;
+    background-color: burlywood;
+    padding: 10px;
+}
+
+menu li button:hover {
+    color: green;
 }
 
 #hero {
@@ -63,19 +85,34 @@ a {
     width: 100%;
 }
 
+#headshot {
+    margin: 2rem;
+}
+
 .projects-list {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.project-img {
+.project-img,
+#headshot {
     float: left;
     height: 250px;
     width: 250px;
     object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px 0 rgb(68, 111, 111);
+}
+
+.project-img:hover {
+    box-shadow: 5px 5px 10px 0 rgb(111, 68, 68);
+}
+
+figcaption {
+    text-align: center;
 }
 
 footer {

@@ -29,7 +29,6 @@ export function renderProjectList(projects) {
         //Add to the HTML
         listDiv.appendChild(detailButton);
     });
-
 }
 
 //For project-details.ejs
@@ -160,4 +159,9 @@ export function getProject(projectId, projects) {
     });
 
     return foundProject;
+}
+
+export function clearList() {
+    let list = document.querySelector(".projects-list");
+    list.replaceChildren();
 }
