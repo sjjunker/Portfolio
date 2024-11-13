@@ -1,14 +1,8 @@
-
-//import serveStatic from 'serve-static';
-
-//app.use(serveStatic('public', { index: '/index.ejs' }));
-//app.listen(3000);
 console.log('Server running at http://127.0.0.1:3000/');
 
 //let createError = require('http-errors');
 let express = require('express');
 let path = require('path');
-//let sassMiddleware = require('node-sass-middleware');
 
 let indexRouter = require('./routes/index');
 let usersRouter = require('./routes/users');
@@ -25,14 +19,10 @@ app.set('view engine', 'ejs');
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-/*app.use(sassMiddleware({
-  src: path.join(__dirname, 'public'),
-  dest: path.join(__dirname, 'public'),
-  indentedSyntax: true, // true = .sass and false = .scss
-  sourceMap: true
-}));*/
+//static files
 app.use(express.static(path.join(__dirname, 'public')));
 
+//routers
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/about-me', aboutMeRouter);

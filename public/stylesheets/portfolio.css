@@ -47,6 +47,10 @@ menu {
     display: flex;
 }
 
+section {
+    margin: 2rem;
+}
+
 menu {
     flex-wrap: none;
     list-style: none;
@@ -113,6 +117,37 @@ menu li button:hover {
 
 figcaption {
     text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    width: 50%;
+    justify-content: space-around;
+}
+
+form label {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+textarea {
+    margin-bottom: 1rem;
+}
+
+input {
+    padding: .5rem;
+}
+
+iframe {
+    width: 30%;
+    height: auto;
+    margin: 1rem;
+}
+
+#details {
+    margin: 1rem;
 }
 
 footer {
