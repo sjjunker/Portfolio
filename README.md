@@ -1,34 +1,42 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This is my portfolio web app. The purpose of this web application is to showcase the skills I've gained not only in web development but also other types of programming. My reason for choosing to build my portfolio as a web app vs a regular static web page was to learn more about how to build webpages dynamically.
 
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
+The server is started by setting an instance of path and another of express and using those to set up the view engine. The link is: http://127.0.0.1:3000/. To run the server the app uses node package manager. The terminal command to start the web app is "npm start", which will automatically open a browser to the homepage of the application.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Web Pages
 
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
+* Home Page: (index.ejs) Contains a hero image and project spotlights. The header and footer are created dynamically using node.js, and the project spotlights are created dynamically using javascript.
+* About Me Page: (about-me.ejs): Lists my skills, interests, current projects, and education. The header and footer are created dynamically using node.js, and the current projects are created dynamically using javascript.
+* Projects Page: (projects-list.ejs) Lists each project in my portfolio. Projects are loaded dynamically through javascript and filtered via the menu tabs. The header and footer are loaded dynamically through node.js.
+* Project Detail Pages: (project-details.ejs) All parts of the project details pages are created dynamically except for the headings. The content is loaded via javascript and the header and footer through node.js.
+* Contact Page: (contact.ejs) Contains a simple form for sending a message to me. Only the header and footer are created dynamically on this page.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+Tools: Visual Studio Code, Web Developer on Chrome and Safari, JSON validators, Node.js, Github, Squoosh, Moqups
+Languages: HTML, CSS, Javascript
+Frameworks: Express, EJS
 
-{Describe the programming language that you used and any libraries.}
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Squoosh](https://squoosh.app)
+* [moqups](https://moqups.com)
+* [JSONLint](https://jsonlint.com)
+* [Medium](https://betterprogramming.pub/build-your-first-local-server-and-web-app-with-node-js-5a5d9e00aff0)
+* [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application)
+* [Node.js Documentation](https://nodejs.org/docs/latest/api/)
+* [Express Documentation] (https://expressjs.com/en/5x/api.html)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Make the contact form actually send an email.
+* Improve the styling. Right now it is very basic, though; passable.
+* Perhaps load the JSON from a database instead.
+* Add a favicon
+* Link to my LinkedIn account
+* Add better/more complex animations to buttons

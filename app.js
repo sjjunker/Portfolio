@@ -1,6 +1,5 @@
 console.log('Server running at http://127.0.0.1:3000/');
 
-//let createError = require('http-errors');
 let express = require('express');
 let path = require('path');
 
@@ -29,11 +28,6 @@ app.use('/about-me', aboutMeRouter);
 app.use('/contact', contactRouter);
 app.use('/project-details', projectDetailsRouter);
 app.use('/projects-list', projectsListRouter);
-
-// catch 404 and forward to error handler
-/*app.use(function (req, res, next) {
-  next(createError(404));
-});*/
 
 // error handler
 app.use(function (err, req, res, next) {
