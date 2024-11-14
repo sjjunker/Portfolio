@@ -15,15 +15,15 @@ export default function listenForButtons(projects) {
     });
     mobileButton.addEventListener("click", () => {
         clearList();
-        filterList("mobile", projects)
+        filterList("mobile", projects);
     });
     webButton.addEventListener("click", () => {
         clearList();
-        filterList("web", projects)
+        filterList("web", projects);
     });
     otherButton.addEventListener("click", () => {
         clearList();
-        filterList("other", projects)
+        filterList("other", projects);
     });
 }
 
