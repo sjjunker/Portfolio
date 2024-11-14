@@ -16,9 +16,9 @@ The server is started by setting an instance of path and another of express and 
 
 # Development Environment
 
-Tools: Visual Studio Code, Web Developer on Chrome and Safari, JSON validators, Node.js, Github, Squoosh, Moqups
-Languages: HTML, CSS, Javascript
-Frameworks: Express, EJS
+* Tools: Visual Studio Code, Web Developer on Chrome and Safari, JSON validators, Node.js, Github, Squoosh, Moqups
+* Languages: HTML, CSS, Javascript
+* Frameworks: Express, EJS
 
 
 # Useful Websites
@@ -30,7 +30,7 @@ Frameworks: Express, EJS
 * [Medium](https://betterprogramming.pub/build-your-first-local-server-and-web-app-with-node-js-5a5d9e00aff0)
 * [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application)
 * [Node.js Documentation](https://nodejs.org/docs/latest/api/)
-* [Express Documentation] (https://expressjs.com/en/5x/api.html)
+* [Express Documentation](https://expressjs.com/en/5x/api.html)
 
 # Future Work
 
